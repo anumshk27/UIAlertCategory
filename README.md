@@ -1,5 +1,5 @@
 
-![image](https://www.dropbox.com/s/awkxt7b6dayvhb7/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-01-22%20at%2014.47.54.png?dl=0)
+![image](https://pasteboard.co/IR8dPAQ.png)
 ![image](https://www.dropbox.com/s/cw26v1ugwiyomcf/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-01-22%20at%2014.48.02.png?dl=0)
 ![image](https://www.dropbox.com/s/mwxpeqnw01dbo52/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-01-22%20at%2014.48.07.png?dl=0)
 
