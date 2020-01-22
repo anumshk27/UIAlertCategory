@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,59 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31o-ZR-EbW">
+                                <rect key="frame" x="172.5" y="200" width="69" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="YWw-A1-4OO"/>
+                                </constraints>
+                                <state key="normal" title="Example 1"/>
+                                <connections>
+                                    <action selector="alertExample1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JI2-MU-uGd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXB-ge-e63">
+                                <rect key="frame" x="172.5" y="258" width="72" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1j3-0y-ovh"/>
+                                </constraints>
+                                <state key="normal" title="Example 2"/>
+                                <connections>
+                                    <action selector="alertExample2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NsM-tf-87d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wc5-sK-Nwp">
+                                <rect key="frame" x="172.5" y="310" width="72" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aeN-62-VnC"/>
+                                </constraints>
+                                <state key="normal" title="Example 3"/>
+                                <connections>
+                                    <action selector="alertExample3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ahf-Ty-zmu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JXB-ge-e63" firstAttribute="leading" secondItem="31o-ZR-EbW" secondAttribute="leading" id="4rA-7M-9hd"/>
+                            <constraint firstItem="Wc5-sK-Nwp" firstAttribute="leading" secondItem="JXB-ge-e63" secondAttribute="leading" id="6ZK-r0-BdK"/>
+                            <constraint firstItem="Wc5-sK-Nwp" firstAttribute="width" secondItem="JXB-ge-e63" secondAttribute="width" id="KME-nO-AR1"/>
+                            <constraint firstItem="31o-ZR-EbW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="156" id="TSH-5v-HMp"/>
+                            <constraint firstItem="Wc5-sK-Nwp" firstAttribute="top" secondItem="JXB-ge-e63" secondAttribute="bottom" constant="2" id="UCh-RY-WLx"/>
+                            <constraint firstItem="JXB-ge-e63" firstAttribute="top" secondItem="31o-ZR-EbW" secondAttribute="bottom" constant="8" id="ULl-8J-BLn"/>
+                            <constraint firstItem="31o-ZR-EbW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WbW-xC-exw"/>
+                            <constraint firstItem="JXB-ge-e63" firstAttribute="height" secondItem="31o-ZR-EbW" secondAttribute="height" id="fzc-nR-Klv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="138"/>
         </scene>
     </scenes>
 </document>

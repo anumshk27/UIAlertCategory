@@ -14,6 +14,7 @@
 		CC825B5123D84ED100A1C036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC825B5023D84ED100A1C036 /* Assets.xcassets */; };
 		CC825B5423D84ED100A1C036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC825B5223D84ED100A1C036 /* LaunchScreen.storyboard */; };
 		CC825B5723D84ED100A1C036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC825B5623D84ED100A1C036 /* main.m */; };
+		CC825B6023D84EF300A1C036 /* UIAlertCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CC825B5F23D84EF300A1C036 /* UIAlertCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		CC825B5323D84ED100A1C036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC825B5523D84ED100A1C036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC825B5623D84ED100A1C036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC825B5E23D84EF300A1C036 /* UIAlertCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertCategory.h; sourceTree = "<group>"; };
+		CC825B5F23D84EF300A1C036 /* UIAlertCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		CC825B4323D84ED000A1C036 /* UIAlertCategory */ = {
 			isa = PBXGroup;
 			children = (
+				CC825B5D23D84EF300A1C036 /* UIAlertCategory */,
 				CC825B4423D84ED000A1C036 /* AppDelegate.h */,
 				CC825B4523D84ED000A1C036 /* AppDelegate.m */,
 				CC825B4723D84ED000A1C036 /* SceneDelegate.h */,
@@ -72,6 +76,15 @@
 				CC825B5223D84ED100A1C036 /* LaunchScreen.storyboard */,
 				CC825B5523D84ED100A1C036 /* Info.plist */,
 				CC825B5623D84ED100A1C036 /* main.m */,
+			);
+			path = UIAlertCategory;
+			sourceTree = "<group>";
+		};
+		CC825B5D23D84EF300A1C036 /* UIAlertCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CC825B5E23D84EF300A1C036 /* UIAlertCategory.h */,
+				CC825B5F23D84EF300A1C036 /* UIAlertCategory.m */,
 			);
 			path = UIAlertCategory;
 			sourceTree = "<group>";
@@ -149,6 +162,7 @@
 				CC825B4C23D84ED000A1C036 /* ViewController.m in Sources */,
 				CC825B4623D84ED000A1C036 /* AppDelegate.m in Sources */,
 				CC825B5723D84ED100A1C036 /* main.m in Sources */,
+				CC825B6023D84EF300A1C036 /* UIAlertCategory.m in Sources */,
 				CC825B4923D84ED000A1C036 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
